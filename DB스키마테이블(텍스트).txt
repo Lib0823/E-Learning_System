@@ -1,0 +1,56 @@
+BOARD
+POSTNUM(게시글 번호, 기본키)
+TITLE(제목)
+NAME(이름)
+VIEWS(조회수)
+NOTICECHECK(공지인지 확인)
+WRITEDATE(작성일)
+CONTENT(내용)
+STUID(쓴 사람)
+
+CLASS
+CLASSCODE(과목 코드)
+CLASSTITLE(과목 명)
+CREDIT(학점)
+CLASSROOM(강의실)
+PROID(개설한 교수학번)
+TIME(강의 시간)
+NAME(개설한 교수 이름)
+MAJOR(개설한 교수 전공)
+Day(요일)
+GRADE(학년)
+CLASS(반)
+
+CLASSCODE
+CODE(과목코드, 기본키)
+CLASSTITLE(과목명)
+MAJOR(전공)
+
+MEMBER
+STUID(학번, 기본키)
+JOB(직책)
+MAJOR(전공)
+NAME(이름)
+PHONENUM(휴대폰 번호)
+ADDRESS(주소)
+ID
+PW
+GRADE(학년)
+CLASS(반)
+
+MESSAGE
+TITLE(쪽지 제목)
+CONTENT(내용)
+SENDNAME(보내는 사람 이름)
+RECEIVEID(받는 사람 ID)
+CHECKOPEN(열람 여부)
+SENDDATE(보내는 날짜)
+MESSAGENUM(쪽지 번호)
+
+VIDEO
+VIDEOLINK(영상 링크)
+CLASSCODE(과목 코드)
+TITLE(영상 제목)
+VIDEONUM(비디오 번호)
+GRADE(학년)
+CLASS(반)
